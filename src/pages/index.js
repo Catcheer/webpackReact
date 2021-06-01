@@ -15,6 +15,7 @@ function Dialog(type){
  
  Dialog.prototype.open=function(param){
     this.state='open'
+    console.log('test')
  }
  
  const pop=new Dialog('open',1)
