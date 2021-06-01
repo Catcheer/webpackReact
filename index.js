@@ -15,6 +15,7 @@ function Dialog(type){
  
  Dialog.prototype.open=function(param){
     this.state='open'
+    console.log('hello git subtree')
  }
  
  const pop=new Dialog('open',1)
